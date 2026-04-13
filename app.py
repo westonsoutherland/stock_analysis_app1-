@@ -549,7 +549,7 @@ the more dramatic the dip in the volatility curve.
 # TAB 4 — Raw Data
 # ═══════════════════════════════════════════════════════════════════════════
 with tab4:
-    st.subheader("Adjusted Closing Prices")
+    st.subheader("Adjusted Closing Price")
     st.dataframe(prices_df.tail(120), use_container_width=True)
 
     st.subheader("Daily Returns")
